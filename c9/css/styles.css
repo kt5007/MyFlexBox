@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: pink;
+}
+
+.container {
+  /* 直近の子要素のみflex */
+  display: flex; 
+}
+
+main {
+  background: skyblue;
+  flex: 1;
+}
+
+aside {
+  background: orange;
+  width: 100px;
+}
+
+footer {
+  background: silver;
+}
